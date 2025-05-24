@@ -27,7 +27,7 @@ console.log(data);
 
         {data && data.map((item,i)=>{
             return <div key={i}>
-                <li>{item.title}</li>
+               <h2> <li>{item.title}</li></h2>
                 <p>{item.body}</p>
             </div>
         })}
